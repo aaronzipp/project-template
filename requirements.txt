@@ -1,0 +1,16 @@
+black
+flake8
+flake8-eradicate
+flake8-print
+ipython
+newspaper3k
+nltk
+numpy
+pandas
+parse
+pre-commit
+pytest
+requests
+scikit-learn
+seaborn
+spacy
