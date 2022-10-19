@@ -1,3 +1,4 @@
+bandit
 black
 flake8
 flake8-eradicate
@@ -7,6 +8,7 @@ newspaper3k
 nltk
 numpy
 pandas
+pandas-vet
 parse
 pre-commit
 pytest
