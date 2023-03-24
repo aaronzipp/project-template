@@ -8,6 +8,7 @@ test = sum(1, 2)
 import logging
 
 import pandas as pd
+from example_utils import sum
 
 logging.basicConfig(format="%(asctime)s\n%(message)s", level=logging.INFO)
 
@@ -16,7 +17,7 @@ example_list = list(range(3))
 example_df = pd.DataFrame(
     {
         "a": example_list,
-        "b": [0, 1, 0],
+        "b": [0, 1, sum(1, 1)],
         "c": [x**2 for x in example_list],
     },
 )
