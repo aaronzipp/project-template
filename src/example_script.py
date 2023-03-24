@@ -1,5 +1,6 @@
 """
-Docstring for this test file
+Docstring for this test file.
+
 ```python
 test = sum(1, 2)
 ```
@@ -12,12 +13,12 @@ logging.basicConfig(format="%(asctime)s\n%(message)s", level=logging.INFO)
 
 example_list = list(range(3))
 
-df = pd.DataFrame(
+example_df = pd.DataFrame(
     {
         "a": example_list,
         "b": [0, 1, 0],
-        "c": map(lambda x: x**2, example_list),
+        "c": [lambda x: x**2, example_list],
     },
 )
 
-logging.info(df)
+logging.info(example_df)
