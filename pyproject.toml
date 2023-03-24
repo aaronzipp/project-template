@@ -50,15 +50,14 @@ select = [
   "PT",
   "C90",
   "G",
-  "FBT"
+  "FBT",
+  "NPY",
 ]
 
 ignore = ['D211', 'D212']
 
 [tool.ruff.per-file-ignores]
 "**/__init__.py" = ['D104']
-"**/schemas.py" = ['D101']
-"**/models.py" = ['D101']
 
 [tool.ruff.mccabe]
 max-complexity = 10
