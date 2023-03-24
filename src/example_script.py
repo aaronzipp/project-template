@@ -17,7 +17,7 @@ example_df = pd.DataFrame(
     {
         "a": example_list,
         "b": [0, 1, 0],
-        "c": [lambda x: x**2, example_list],
+        "c": [x**2 for x in example_list],
     },
 )
 
