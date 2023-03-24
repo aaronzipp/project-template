@@ -16,18 +16,15 @@ repos:
       - id: name-tests-test
       - id: requirements-txt-fixer
       - id: sort-simple-yaml
-  - repo: https://github.com/pycqa/flake8
-    rev: 3.9.2
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: 'v0.0.259'
     hooks:
-      - id: flake8
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
   - repo: https://github.com/psf/black
     rev: 22.3.0
     hooks:
       - id: black
-  - repo: https://github.com/asottile/add-trailing-comma
-    rev: v2.3.0
-    hooks:
-      - id: add-trailing-comma
   - repo: https://github.com/asottile/dead
     rev: v1.5.0
     hooks:
