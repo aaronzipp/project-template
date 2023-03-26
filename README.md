@@ -11,11 +11,10 @@ A basic template for projects
 
 Clone the repository and run
 ```
-make init
+python -m pip install poetry
 ```
 
-This takes care of everything. You just need to execute
+After poetry is installed, you can install the dependencies with
 ```
-source ./bin/activate
+poetry install
 ```
-and are ready to go.
