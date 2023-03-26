@@ -2,7 +2,11 @@
 Docstring for this test file.
 
 ```python
+from example_utils import sum
+
 test = sum(1, 2)
+
+assert test == 3
 ```
 """
 import logging
