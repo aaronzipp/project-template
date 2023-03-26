@@ -21,4 +21,4 @@ jobs:
         python -m pip install poetry
     - name: Test with pytest
       run: |
-        python -m pytest --verbose
+        poetry run python -m pytest --verbose
