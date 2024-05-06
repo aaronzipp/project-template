@@ -9,6 +9,7 @@ test = sum(1, 2)
 assert test == 3
 ```
 """
+
 import logging
 
 import pandas as pd
