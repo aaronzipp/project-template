@@ -13,6 +13,7 @@ assert test == 3
 import logging
 
 import pandas as pd
+
 from example_utils import sum
 
 logging.basicConfig(format="%(asctime)s\n%(message)s", level=logging.INFO)
